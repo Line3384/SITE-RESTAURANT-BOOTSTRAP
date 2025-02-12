@@ -18,21 +18,21 @@ Le projet consiste en la création d'un site web statique utilisant Bootstrap po
 ## 4. Structure du Site
 
 # 4.1. Page d'accueil
-1.Bannière avec une image du restaurant et un slogan.
-2.Section "À propos" présentant le restaurant.
-3.Section "Nos spécialités" avec quelques images et descriptions.
-4.Pied de page avec informations de contact et liens vers les réseaux sociaux.
+1. Bannière avec une image du restaurant et un slogan.
+2. Section "À propos" présentant le restaurant.
+3. Section "Nos spécialités" avec quelques images et descriptions.
+4. Pied de page avec informations de contact et liens vers les réseaux sociaux.
 
 # 4.2. Page Menu
-1.Affichage des plats sous forme de cartes Bootstrap.
-2.Catégorisation des plats (Entrées, Plats, Desserts, Boissons)
-3.Images et descriptions des plats.
-4.Mise en avant des plats populaires.
+1. Affichage des plats sous forme de cartes Bootstrap.
+2. Catégorisation des plats (Entrées, Plats, Desserts, Boissons)
+3. Images et descriptions des plats.
+4. Mise en avant des plats populaires.
 
 # 4.3. Page Réservation
-1.Formulaire avec les champs suivants : Nom, Email, Téléphone, Nombre de personnes, Date, Heure.
-2.Bouton "Envoyer" (sans backend, affichant une simple alerte de confirmation en JavaScript).
-3.Mise en page agréable du formulaire pour le rendre intuitif.
+1. Formulaire avec les champs suivants : Nom, Email, Téléphone, Nombre de personnes, Date, Heure.
+2. Bouton "Envoyer" (sans backend, affichant une simple alerte de confirmation en JavaScript).
+3. Mise en page agréable du formulaire pour le rendre intuitif.
 
 ## 5. User Stories
 # 5.1. Page d'accueil
