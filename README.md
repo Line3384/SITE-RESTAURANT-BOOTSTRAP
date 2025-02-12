@@ -36,19 +36,19 @@ Le projet consiste en la création d'un site web statique utilisant Bootstrap po
 
 ## 5. User Stories
 # 5.1. Page d'accueil
-1.En tant que visiteur, je veux voir une belle image du restaurant pour avoir une première bonne impression.
-2.En tant que visiteur, je veux lire une brève description du restaurant pour en savoir plus.
-3.En tant que visiteur, je veux voir les spécialités mises en avant pour découvrir les plats signature.
+1. En tant que visiteur, je veux voir une belle image du restaurant pour avoir une première bonne impression.
+2. En tant que visiteur, je veux lire une brève description du restaurant pour en savoir plus.
+3. En tant que visiteur, je veux voir les spécialités mises en avant pour découvrir les plats signature.
 
 # 5.2. Page Menu
-1.En tant que visiteur, je veux voir une liste claire et organisée des plats proposés.
-2.En tant que visiteur, je veux voir des images des plats pour me donner envie de commander.
-3.En tant que visiteur, je veux pouvoir naviguer facilement entre les différentes catégories du menu.
+1. En tant que visiteur, je veux voir une liste claire et organisée des plats proposés.
+2. En tant que visiteur, je veux voir des images des plats pour me donner envie de commander.
+3. En tant que visiteur, je veux pouvoir naviguer facilement entre les différentes catégories du menu.
 
 # 5.3. Page Réservation
-1.En tant que visiteur, je veux remplir un formulaire de réservation facilement.
-2.En tant que visiteur, je veux recevoir une confirmation visuelle après l'envoi de ma réservation.
-3.En tant que visiteur, je veux que le formulaire soit simple et rapide à compléter.
+1. En tant que visiteur, je veux remplir un formulaire de réservation facilement.
+2. En tant que visiteur, je veux recevoir une confirmation visuelle après l'envoi de ma réservation.
+3. En tant que visiteur, je veux que le formulaire soit simple et rapide à compléter.
 
 ## 6. Contraintes
 - Le site doit être 100% responsive (adapté aux mobiles, tablettes et ordinateurs).
