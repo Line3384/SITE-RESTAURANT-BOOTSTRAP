@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Le Savoureux</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Asset/CSS/Menu.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-primary" href="index.html">Le Savoureux</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservation.html">Réservation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Header -->
+    <header class="py-5 bg-light">
+        <div class="container text-center">
+            <h1 class="display-4">Notre Menu</h1>
+            <p class="lead">Découvrez notre sélection de plats raffinés</p>
+        </div>
+    </header>
+
+    <!-- Menu Categories -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Category Navigation -->
+            <ul class="nav nav-pills mb-5 justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#entrees">Entrées</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#plats">Plats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#desserts">Desserts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#boissons">Boissons</a>
+                </li>
+            </ul>
+
+            <!-- Entrées -->
+            <div id="entrees" class="mb-5">
+                <h2 class="text-center mb-4">Entrées</h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card menu-card h-100">
+                            <img src="/api/placeholder/400/300" class="card-img-top" alt="Entrée 1">
+                            <span class="popular-badge">Populaire</span>
+                            <div class="card-body">
+                                <h5 class="card-title">Foie Gras Maison</h5>
+                                <p class="card-text">Foie gras de canard mi-cuit, chutney de figues et pain toasté</p>
+                                <p class="card-text"><small class="text-muted">22€</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Autres entrées... -->
+                </div>
+            </div>
+
+            <!-- Plats -->
+            <div id="plats" class="mb-5">
+                <h2 class="text-center mb-4">Plats</h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card menu-card h-100">
+                            <img src="/api/placeholder/400/300" class="card-img-top" alt="Plat 1">
+                            <span class="popular-badge">Populaire</span>
+                            <div class="card-body">
+                                <h5 class="card-title">Filet de Bœuf Rossini</h5>
+                                <p class="card-text">Filet de bœuf, escalope de foie gras poêlée, sauce aux truffes</p>
+                                <p class="card-text"><small class="text-muted">38€</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Autres plats... -->
+                </div>
+            </div>
+
+            <!-- Desserts et Boissons suivent le même modèle -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Le Savoureux</h5>
+                    <p>123 Rue de la Gastronomie<br>75001 Paris</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Contact</h5>
+                    <p>Tél : 01 23 45 67 89<br>Email : contact@lesavoureux.fr</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>
