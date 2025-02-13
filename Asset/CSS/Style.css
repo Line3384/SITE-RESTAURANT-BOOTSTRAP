@@ -1,0 +1,43 @@
+:root {
+    --primary: #1A875F;
+    --secondary: #00A86B;
+    --accent: #0097A7;
+}
+
+.bg-primary { background-color: var(--primary) !important; }
+.bg-secondary { background-color: var(--secondary) !important; }
+.bg-accent { background-color: var(--accent) !important; }
+
+.text-primary { color: var(--primary) !important; }
+.text-secondary { color: var(--secondary) !important; }
+.text-accent { color: var(--accent) !important; }
+
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary)!important;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary)!important;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero-section {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Asset/img/logo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
