@@ -13,13 +13,13 @@
 .text-accent { color: var(--accent) !important; }
 
 .btn-primary {
-    background-color: var(--primary);
-    border-color: var(--primary);
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
 }
 
 .btn-primary:hover {
-    background-color: var(--secondary);
-    border-color: var(--secondary);
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
 }
 
 .navbar {
@@ -29,7 +29,7 @@
 
 .hero-section {
     height: 80vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/api/placeholder/1920/1080');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../Asset/img/maiVang.jpg');
     background-size: cover;
     background-position: center;
 }
