@@ -27,6 +27,14 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+.nav-link {
+    color: #333 !important;
+}
+
+.nav-link.active {
+    color: var(--primary) !important;
+}
+
 .hero-section {
     height: 80vh;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../Asset/img/maiVang.jpg');

@@ -27,6 +27,14 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+.nav-link {
+    color: #333 !important;
+}
+
+.nav-link.active {
+    color: var(--primary) !important;
+}
+
 .menu-card {
     transition: transform 0.3s;
     cursor: pointer;
@@ -34,6 +42,27 @@
 
 .menu-card:hover {
     transform: translateY(-5px);
+}
+
+.card {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-body .fas {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    content: "\f00c"; 
+}
+
+.card:hover .fas {
+    opacity: 1;
 }
 
 .popular-badge {
