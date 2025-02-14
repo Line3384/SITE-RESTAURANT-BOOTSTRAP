@@ -1,0 +1,14 @@
+.hero-section {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../Asset/img/maiVang.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
