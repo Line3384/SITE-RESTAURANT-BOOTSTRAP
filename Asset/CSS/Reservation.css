@@ -8,22 +8,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, sans-serif;
 }
 
 body {
     background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    color: var(--primary) !important;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.nav-link.active {
+    color: var(--primary) !important;
+}
+
+.main-content {
+    flex: 1;
     padding: 2rem;
 }
 
-.container {
+.reservation-container {
     max-width: 600px;
     margin: 0 auto;
-    background: white;
     padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-top: 4px solid var(--primary);
 }
 
 h1 {
@@ -87,20 +107,28 @@ button:hover {
     background: var(--secondary);
 }
 
-/* Style pour les champs select */
 select {
     background-color: white;
     cursor: pointer;
 }
 
-/* Style pour le placeholder du textarea */
 textarea::placeholder {
     color: #999;
 }
 
-/* Style pour les états hover des inputs */
 input:hover, select:hover, textarea:hover {
     border-color: var(--accent);
+}
+
+.social-links a {
+    color: white !important;
+    text-decoration: none;
+    transition: color 0.2s;
+    margin-right: 1rem;
+}
+
+.social-links a:hover {
+    color: var(--secondary) !important;
 }
 
 @media (max-width: 640px) {
@@ -108,7 +136,7 @@ input:hover, select:hover, textarea:hover {
         grid-template-columns: 1fr;
     }
 
-    body {
+    .main-content {
         padding: 1rem;
     }
 }
